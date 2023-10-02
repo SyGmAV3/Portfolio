@@ -1,0 +1,64 @@
+@import "./custom.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-reverse-row {
+  flex-direction: row-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 6%;
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+
+  top: 0%;
+  left: 0%;
+
+  background-color: rgb(51, 51, 51, 0.6);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 110;
+
+  transition: 0.8s ease;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 300px;
+  }
+
+  .modal {
+    background-size: contain;
+  }
+}

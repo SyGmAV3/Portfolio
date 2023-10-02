@@ -1,0 +1,156 @@
+@import "./custom.css";
+
+.header {
+  height: var(--navbar-height);
+  width: 100%;
+
+  background-color: var(--navbar-bg);
+  color: var(--navbar-text);
+
+  position: fixed;
+  z-index: 100;
+}
+
+.logo_header {
+  width: 120px;
+  font-size: 22px;
+  font-weight: 700;
+
+  position: absolute;
+  top: 20px;
+  left: 6%;
+
+  justify-content: flex-start;
+}
+
+.logo_header-icon {
+  width: 24px;
+  height: 24px;
+  background-image: url(../public/header/logo_header.svg);
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  height: 100%;
+}
+
+.navbar_links {
+  gap: 25px;
+}
+
+.navbar_links a {
+  color: var(--navbar-text);
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    transform: translateX(100%);
+
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+
+    padding-top: 90px;
+    background-color: var(--navbar-bg);
+
+    align-items: flex-start;
+
+    position: relative;
+  }
+
+  .logo_header {
+    left: 20px;
+  }
+
+  .dismiss_button-js {
+    width: 48px;
+    height: 48px;
+
+    background-image: url(../public/header/close.svg);
+    background-repeat: no-repeat;
+
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+    cursor: pointer;
+  }
+
+  .close_navbar_js {
+    transform: translateX(0);
+
+    transition: transform 0.5s ease;
+  }
+
+  .open_navbar-js {
+    width: 48px;
+    height: 48px;
+
+    background-image: url(../public/header/open.svg);
+    background-repeat: no-repeat;
+
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+    cursor: pointer;
+  }
+
+  .navbar_links {
+    width: 100%;
+
+    font-size: 25px;
+    position: sticky;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .navbar_links li {
+    width: 100%;
+    border-bottom: 1px solid var(--pale-blue);
+    padding-bottom: 10px;
+  }
+
+  .navbar_links li a {
+    justify-content: flex-start;
+    gap: 15px;
+  }
+
+  .navbar_link-about {
+    width: 24px;
+    height: 24px;
+    background-image: url(../public/header/about.svg);
+  }
+
+  .navbar_link-skills {
+    width: 24px;
+    height: 24px;
+    background-image: url(../public/header/skills.svg);
+  }
+
+  .navbar_link-hobbies {
+    width: 24px;
+    height: 24px;
+    background-image: url(../public/header/hobbies.svg);
+  }
+
+  .navbar_link-formation {
+    width: 24px;
+    height: 24px;
+    background-image: url(../public/header/formation.svg);
+  }
+
+  .navbar_link-proyects {
+    width: 24px;
+    height: 24px;
+    background-image: url(../public/header/proyects.svg);
+  }
+
+  .navbar_link-contact {
+    width: 24px;
+    height: 24px;
+    background-image: url(../public/header/contact.svg);
+  }
+}

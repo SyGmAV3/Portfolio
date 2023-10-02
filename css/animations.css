@@ -1,0 +1,22 @@
+[data-animation="show"] {
+  opacity: 0;
+  transform: translateX(-30%);
+  transition: opacity 1.5s, transform 0.8s;
+
+  --opacity: 1;
+  --transform: translateX(0);
+}
+
+[data-animation="up"] {
+  opacity: 0;
+  transform: translateY(30%);
+  transition: opacity 1.5s, transform 0.8s;
+
+  --opacity: 1;
+  --transform: translateY(0);
+}
+
+.unset {
+  opacity: var(--opacity);
+  transform: var(--transform);
+}

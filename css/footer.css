@@ -1,0 +1,20 @@
+@import "./custom.css";
+
+.footer {
+  text-align: center;
+  padding: 40px;
+
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+  font-size: 1.75rem;
+  border-bottom: 2px solid var(--border-bottom);
+}
+
+.footer span {
+  font-size: 1.2rem;
+  font-style: italic;
+}

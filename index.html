@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/formation.css" />
+    <link rel="stylesheet" href="css/experience.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="logo_header flex">
+        <div class="logo_header-icon"></div>
+        <span>Bienvenidos!</span>
+      </h2>
+      <div class="open_navbar-js" id="open-navbar"></div>
+      <nav class="navbar flex container" id="navbar">
+        <div id="close-navbar" class="dismiss_button-js"></div>
+        <ul class="flex navbar_links">
+          <li>
+            <a class="flex" href="#about"
+              ><div class="navbar_link-about"></div>
+              Sobre mi</a
+            >
+          </li>
+          <li>
+            <a class="flex" href="#skills"
+              ><div class="navbar_link-skills"></div>
+              Skills</a
+            >
+          </li>
+          <li>
+            <a class="flex" href="#hobbies"
+              ><div class="navbar_link-hobbies"></div>
+              Hobbies</a
+            >
+          </li>
+          <li>
+            <a class="flex" href="#formation"
+              ><div class="navbar_link-formation"></div>
+              Formacion</a
+            >
+          </li>
+          <li>
+            <a class="flex" href="#proyects"
+              ><div class="navbar_link-proyects"></div>
+              Proyectos</a
+            >
+          </li>
+          <li>
+            <a class="flex" href="#contact"
+              ><div class="navbar_link-contact"></div>
+              Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="flex flex-column">
+      <section id="about" class="container about flex flex-column">
+        <div class="about_container flex">
+          <div class="flex flex-column about_container-content">
+            <h1>¡Hola! mi nombre es Andres L. Ospina</h1>
+            <p>
+              Soy programador front end junior formado en Alura LATAM y con
+              desarrollo autodidacta en el ambito del desarrollo web.
+            </p>
+            <ul class="social_list flex flex-wrap">
+              <li class="social">
+                <a
+                  class="flex"
+                  href="https://github.com/SyGmAV3"
+                  target="_blank"
+                >
+                  <span>GitHub</span>
+                  <img src="public/social-media/github_logo.svg" />
+                </a>
+              </li>
+              <li class="social">
+                <a
+                  class="flex"
+                  target="_blank"
+                  href="https://www.instagram.com/SyGmA_V3/?hl=es-la"
+                >
+                  <span> Instagram </span>
+                  <img src="public/social-media/instagram_log.svg" />
+                </a>
+              </li>
+              <li class="social">
+                <a
+                  class="flex"
+                  href="https://www.linkedin.com/in/sygmav3/"
+                  target="_blank"
+                >
+                  <span> LinkedIn </span>
+                  <img src="public/social-media/linkedin_logo.svg" />
+                </a>
+              </li>
+              <li class="social">
+                <a
+                  class="flex"
+                  href="public/Andres_Ospina_-_Front_end_Developer"
+                  download=""
+                >
+                  <span> Curriculum </span>
+                  <img src="public/social-media/download.svg" />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <figure class="about_fig">
+            <img src="public/profile-picture.pnj.jpg" alt="imagen not found" />
+          </figure>
+        </div>
+        <div class="about_container about_me">
+          <h2>Sobre mi</h2>
+          <p>
+            Proveniente de Bogotá D.C., Colombia, y a mi edad de 38 años con
+            una formación en Ingenieria de Sistemas. Busco trascender
+            fronteras y crear soluciones digitales significativas. Mi objetivo
+            es plasmar mis habilidades en el mundo del desarrollo web.
+          </p>
+        </div>
+      </section>
+      <section id="skills" class="skills container">
+        <div data-animation="show">
+          <h2>Skills</h2>
+          <div class="skill_cards flex flex-wrap">
+            <div class="skill_card flex flex-column">
+              <img src="public/skills/html.svg" alt="" />
+              <span>HTML 5</span>
+            </div>
+            <div class="skill_card flex flex-column">
+              <img src="public/skills/css.svg" alt="" />
+              <span>CSS 3</span>
+            </div>
+            <div class="skill_card flex flex-column">
+              <img src="public/skills/javascript.svg" alt="" />
+              <span>JavaScript</span>
+            </div>
+            <div class="skill_card flex flex-column">
+              <img src="public/skills/react.svg" alt="" />
+              <span>React</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="hobbies" class="skills container">
+        <div data-animation="show">
+          <h2>Hobbies</h2>
+          <div class="skill_cards flex flex-wrap">
+            <div class="skill_card flex flex-column">
+              <img src="public/hobbies/music.svg" alt="Guitar" />
+              <span>Tocar guitarra</span>
+            </div>
+            <div class="skill_card flex flex-column">
+              <img src="public/hobbies/headphone.svg" alt="headphone" />
+              <span>Oir musica</span>
+            </div>
+            <div class="skill_card flex flex-column">
+              <img src="public/hobbies/gym.svg" alt="Gym" />
+              <span>Ejercicio</span>
+            </div>
+            <div class="skill_card flex flex-column">
+              <img src="public/hobbies/games.svg" alt="Pacman" />
+              <span>Videojuegos</span>
+            </div>
+            <div class="skill_card flex flex-column">
+              <img src="public/hobbies/tv.svg" alt="Television" />
+              <span>Ver series</span>
+            </div>
+            <div class="skill_card flex flex-column">
+              <img src="public/hobbies/book.svg" alt="Book" />
+              <span>Leer</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container formation" id="formation">
+        <h2>Formación académica</h2>
+        <div class="academy flex flex-wrap">
+          <div class="academy_card flex flex-column" data-animation="up">
+            <figure class="academy_card_fig flex">
+              <img class="alura-logo" src="public/alura.png" alt="Alura logo" />
+            </figure>
+            <h4>Formacion Front-end</h4>
+            <span>En curso - Alura / Oracle</span>
+          </div>
+          <div
+            class="academy_card flex flex-column"
+            data-animation="up"
+            data-url="./public/aws_cloudpartitioner.png"
+          >
+            <figure class="academy_card_fig flex">
+              <img src="public/coursera.png" alt="Coursera logo" />
+              <div class="flex">
+                <span>Click me</span>
+                <img src="public/pointer.svg" alt="Finger pointing" />
+              </div>
+            </figure>
+            <h4>Introduction to Front-End Development</h4>
+            <span>Febrero 2023 - Meta</span>
+          </div>
+          <div
+            class="academy_card flex flex-column"
+            data-animation="up"
+            data-url="public/prog_desarrollo_web.png"
+          >
+            <figure class="academy_card_fig flex">
+              <img src="public/coursera.png" alt="Coursera logo" />
+            </figure>
+            <h4>Programming with Javascript</h4>
+            <span>Marzo 2023 - Meta</span>
+          </div>
+        </div>
+      </section>
+      <section class="proyects container" id="proyects">
+        <h2>Experiencia profesional</h2>
+        <div class="proyects_cards flex flex-column">
+          <div class="proyect_card flex flex-wrap">
+            <img src="public/alura-encriptador_ss.jpeg" alt="Proyect image" />
+            <div class="proyect_card-divider"></div>
+            <div class="proyect_card-text flex flex-column">
+              <h4>Encriptador de texto</h4>
+              <span>Challenge Oracle</span>
+              <span>
+                <ul>
+                  <li>Mobile</li>
+                  <li>Desktop</li>
+                </ul>
+              </span>
+              <div class="buttons_card">
+                <a
+                  href="https://github.com/SyGmAV3/Encriptador"
+                  target="_blank"
+                  >Repositorio</a
+                >
+                <a
+                  href="https://sygmav3.github.io/Encriptador/"
+                  target="_blank"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="proyect_card flex flex-wrap flex-reverse-row">
+            <img src="public/tasks-proyect-react.jpeg" alt="Proyect image" />
+            <div class="proyect_card-divider"></div>
+            <div class="proyect_card-text flex flex-column">
+              <h4>Creador de tareas</h4>
+              <span>Own practice</span>
+              <span>
+                <ul>
+                  <li>Desktop</li>
+                </ul>
+              </span>
+              <div class="buttons_card">
+                <a
+                  href="https://github.com/SyGmAV3/tasks-react-viteApp"
+                  target="_blank"
+                  >Repositorio</a
+                >
+                <a
+                  href="https://sygmav3.github.io/tasks-react-viteApp/"
+                  target="_blank"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact container flex flex-wrap" id="contact">
+        <div class="contact_container">
+          <h2>Contacto</h2>
+          <span class="contact_text">¿Quieres contactarme? </span>
+          <p class="contact_text">
+            Complete el siguiente formulario y me pondré en contacto con usted
+            lo antes posible.
+          </p>
+          <form class="flex flex-column contact_form" id="form-contact">
+            <div class="input_container flex flex-column">
+              <input
+                class="input"
+                placeholder="Email"
+                id="input-email"
+                type="text"
+              />
+              <label class="input-label" for="input-email">Email</label>
+              <span class="hidden_error" id="invalid-email"
+                >Favor de ingresar un correo valido</span
+              >
+            </div>
+            <div class="input_container flex flex-column">
+              <input
+                class="input"
+                placeholder="Nombre"
+                id="input-nombre"
+                type="text"
+              />
+              <label class="input-label" for="input-nombre">Nombre</label>
+            </div>
+            <div class="input_container flex flex-column">
+              <input
+                class="input"
+                placeholder="Asunto"
+                id="input-asunto"
+                type="text"
+              />
+              <label class="input-label" for="input-asunto">Asunto</label>
+            </div>
+            <div class="input_container flex flex-column">
+              <textarea
+                class="input"
+                placeholder="Descripcion"
+                id="input-description"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <label class="input-label" for="input-description"
+                >Descripcion</label
+              >
+            </div>
+            <button class="form_button">Enviar</button>
+            <span class="sended_message" id="sended-message"></span>
+          </form>
+        </div>
+
+        <div class="contact_container flex">
+          <img class="contact_hidden" src="public/undraw_address.svg" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer class="footer container flex flex-column">
+      <h2>Desarrollado por Andrés L. Ospina</h2>
+      <span>2023</span>
+    </footer>
+
+    <div id="modal"></div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

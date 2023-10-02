@@ -1,0 +1,95 @@
+@import "./custom.css";
+
+.proyects {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  background-color: var(--primary-bg);
+}
+
+.proyects h2 {
+  margin: 0 auto 40px;
+  width: 500px;
+
+  font-size: 3rem;
+  font-weight: 700;
+
+  text-align: center;
+}
+
+.proyects_cards {
+  gap: 50px;
+}
+
+.proyect_card {
+  width: 85%;
+  min-width: 650px;
+  padding: 40px 0;
+  background-color: var(--pale-blue);
+
+  /* border: 1px solid #e0e0e0; */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+
+  justify-content: space-evenly;
+}
+
+.proyect_card img {
+  width: 60%;
+  object-fit: cover;
+}
+
+.proyect_card-text {
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.proyect_card-text h4 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.proyect_card-text span {
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+.proyect_card-text span ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.buttons_card {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.buttons_card a {
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.buttons_card a:first-child {
+  background-color: var(--primary-button-color);
+  color: var(--primary-bg);
+}
+
+.buttons_card a:last-child {
+  color: var(--primary-button-color);
+  background-color: var(--primary-bg);
+  border: 1px solid var(--primary-button-color);
+}
+
+@media (max-width: 767px) {
+  .proyects h2 {
+    width: 100%;
+    font-size: 35px;
+  }
+
+  .proyect_card {
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}

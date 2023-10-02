@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;700&family=Montserrat:wght@300;400;500;700&display=swap");
+
+:root {
+  --navbar-height: 60px;
+  --cormotant: "Cormorant Garamond", serif;
+  --montserrat: "Montserrat", sans-serif;
+  --pale-blue: #a8c0ff;
+  --lavender: #e1d5e7;
+  --muted-pink: #ffd3e0;
+  --sage-green: #c3e6b4;
+  --warm-gray: #ece8e1;
+  --white: #fff;
+
+  --primary-bg: #f7f7f7; /* Soft Grayish Background */
+  --primary-text: #333333; /* Dark Gray Text */
+
+  --navbar-bg: #dbeef3;
+  --navbar-text: #333333; /* Dark Gray Text for Navbar */
+
+  --formation-bg: #e9f1f6;
+  --formation-text: #333333;
+
+  --accent-pink: #ffacb9; /* Soft Pink Accent */
+  --accent-green: #b4dfb9; /* Soft Green Accent */
+
+  --divider-color: #dddddd; /* Divider Color */
+
+  --footer-bg: #f7f7f7; /* Soft Grayish Background for Footer */
+  --footer-text: #777777; /* Grayish Text for Footer */
+
+  --section-accent: #e3c1d3; /* Soft Lavender Accent for Sections */
+
+  --card-bg: #d1dbe8; /* White Background for Cards */
+
+  --primary-button-color: #3498db; /* Blue color for the primary button */
+  --border-bottom: #6c757d;
+
+  --input-invalid: rgb(255, 0, 0, 0.5); /* New color for invalid input */
+  --input-valid: #83e085; /* New color for valid input */
+  --input-focus: #3498db; /* New color for input focus */
+}
+
+* {
+  font-family: var(--montserrat);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--cormotant);
+}

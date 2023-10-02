@@ -1,0 +1,81 @@
+@import "./custom.css";
+
+.formation {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--formation-bg);
+  color: var(--formation-text);
+}
+
+.formation h2 {
+  margin: 0 auto 40px;
+  border-bottom: 3px solid var(--border-bottom);
+  width: 500px;
+
+  font-size: 3rem;
+  font-weight: 700;
+
+  text-align: center;
+}
+
+.academy {
+  justify-content: center;
+  gap: 20px;
+}
+
+.academy_card {
+  width: 322px;
+  height: 338px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.academy_card_fig {
+  width: 100%;
+  height: 246px;
+  background-color: var(--white);
+
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.academy_card_fig img {
+  width: 250px;
+  object-fit: contain;
+}
+
+.academy_card_fig .alura-logo {
+  width: 125px;
+}
+
+.academy_card_fig div {
+  font-weight: 700;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+
+  gap: 5px;
+}
+
+.academy_card_fig div img {
+  width: 24px;
+}
+
+.academy_card h4 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.academy_card span {
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .formation h2 {
+    font-size: 40px;
+    width: 90%;
+  }
+}
